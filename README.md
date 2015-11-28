@@ -1,11 +1,10 @@
-# Rack Routes and GET Params
+# Dynamic Routes and Status Codes
 
-We've provided the code for a basic list of items. Now it's your turn to extend
-it.
+We've provided a basic `Item` class. Let's get more information on our items.
 
 ## Instructions
 
-  1. Create a new class array called `@@cart` to hold any items in your cart
-  2. Create a new route called `/cart` to show the items in your cart
-  3. Create a new route called `/add` that takes in a `GET` param with the key `item`. This should check to see if that item is in `@@items` and then add it to the cart if it is. Otherwise give an error
+  1. Your application should only accept the `/items/<ITEM NAME>` route. Everything else should `404`
+  2. If a user requests `/items/<Item Name>` it should return the price of that item
+  3. IF a user requests an item that you don't have, then return a `400` and an error message
 
