@@ -8,3 +8,5 @@ We've provided a basic `Item` class. Let's get more information on our items.
   2. If a user requests `/items/<Item Name>` it should return the price of that item
   3. IF a user requests an item that you don't have, then return a `400` and an error message
 
+
+<a href='https://learn.co/lessons/rack-dynamic-routes-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
